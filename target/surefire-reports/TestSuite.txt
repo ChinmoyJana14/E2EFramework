@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 9, Time elapsed: 1.307 s <<< FAILURE! - in TestSuite
+Initialize(Framework.E2EframeWork.HomePageTest)  Time elapsed: 0.958 s  <<< FAILURE!
+java.lang.Exception: Browser is not correct
+	at Framework.E2EframeWork.HomePageTest.Initialize(HomePageTest.java:27)
+

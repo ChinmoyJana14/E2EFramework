@@ -1,0 +1,6 @@
+14:09:21.806 [TestNG-tests-3] INFO  resources.Base - Browser Clossing
+14:09:24.930 [TestNG-tests-2] INFO  resources.Base - Bad User 2
+14:09:24.937 [AsyncHttpClient-1-9] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+14:09:25.181 [TestNG-tests-2] INFO  resources.Base - Browser Clossing
+14:09:26.162 [TestNG-tests-1] INFO  resources.Base - Navigated to HomePage
+14:09:26.946 [AsyncHttpClient-1-8] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26

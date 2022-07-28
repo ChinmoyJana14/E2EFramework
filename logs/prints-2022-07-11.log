@@ -1,0 +1,7 @@
+21:56:17.328 [main] INFO  resources.Base - Driver is initilized
+21:56:47.793 [main] INFO  resources.Base - Navigated to HomePage
+21:57:07.828 [main] INFO  resources.Base - Bad User
+21:57:26.950 [main] INFO  resources.Base - Bad User 2
+21:57:27.048 [main] INFO  resources.Base - Successfully Validated Navigation Existence Text
+21:57:27.205 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+21:57:27.385 [main] INFO  resources.Base - Browser Clossing
