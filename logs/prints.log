@@ -1,3 +1,8 @@
-14:02:06.841 [TestNG-tests-2] INFO  resources.Base - This LogInTryTest2
-14:02:06.848 [AsyncHttpClient-1-10] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
-14:02:07.107 [TestNG-tests-2] INFO  resources.Base - Browser Clossing
+12:34:48.916 [main] INFO  resources.Base - Driver is initilized
+12:34:51.993 [main] INFO  resources.Base - Navigated to HomePage
+12:35:57.315 [main] INFO  resources.Base - This LogInTryTest2
+12:36:00.149 [main] INFO  resources.Base - Successfully Validated ...
+12:36:10.586 [main] INFO  resources.Base - Successfully Validated Text
+12:36:10.770 [main] INFO  resources.Base - Browser Clossing
+12:36:11.244 [main] INFO  resources.Base - Browser Clossing
+12:36:11.367 [main] INFO  resources.Base - Browser Clossing

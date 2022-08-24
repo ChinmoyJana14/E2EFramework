@@ -2,21 +2,26 @@ package pageObject;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.By.ByCssSelector;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class LoginPage {
 	
 	WebDriver driver;
+	WebDriverWait wait;
 	
-	private By emailAddress = By.cssSelector("#user_email");
-	private By password = By.cssSelector("#user_password");
-	private By logInButton = By.cssSelector("input[value='Log In']");
+	private By emailAddress = By.cssSelector("#email");
+	private By password = By.cssSelector("#password");
+	private By logInButton = By.cssSelector("input[value='Log in']");
 	private By forgotpassword = By.cssSelector("a[href*='password']");
 	
-	public LoginPage(WebDriver driver) {
+	public LoginPage(WebDriver driver, WebDriverWait wait) {
 		this.driver = driver;
+		this.wait = wait;
 	}
+
 
 	public WebElement EmailField() {
 		return driver.findElement(emailAddress);
@@ -27,6 +32,7 @@ public class LoginPage {
 	}
 	
 	public WebElement LogInButton() {
+		//return wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(logInButton))).click();
 		return driver.findElement(logInButton);
 	}
 	

@@ -7,9 +7,16 @@
         <methods>
           <include name="TearDown"/>
           <include name="Initialize"/>
-          <include name="LogInTry"/>
+          <include name="LogInTry" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- Framework.E2EframeWork.HomePageTest -->
+      <class name="Framework.E2EframeWork.ValidateTitleTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="ValidatePageTitle"/>
+          <include name="Initialize"/>
+        </methods>
+      </class> <!-- Framework.E2EframeWork.ValidateTitleTest -->
       <class name="Framework.E2EframeWork.ValidateNavBarTest">
         <methods>
           <include name="ValidatePageNavBar"/>
@@ -17,13 +24,13 @@
           <include name="Initialize"/>
         </methods>
       </class> <!-- Framework.E2EframeWork.ValidateNavBarTest -->
-      <class name="Framework.E2EframeWork.ValidateTitleTest">
+      <class name="cucumberOptions.TestRunner">
         <methods>
-          <include name="TearDown"/>
-          <include name="Initialize"/>
-          <include name="ValidatePageTitle"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- Framework.E2EframeWork.ValidateTitleTest -->
+      </class> <!-- cucumberOptions.TestRunner -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

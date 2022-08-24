@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" parallel="tests" name="ValidatingTitle(failed)">
     <classes>
-      <class name="Framework.E2EframeWork.ValidateTitleTest">
+      <class name="cucumberOptions.TestRunner">
         <methods>
-          <include name="TearDown"/>
-          <include name="ValidatePageTitle"/>
-          <include name="Initialize"/>
+          <include name="feature"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- Framework.E2EframeWork.ValidateTitleTest -->
+      </class> <!-- cucumberOptions.TestRunner -->
     </classes>
   </test> <!-- ValidatingTitle(failed) -->
 </suite> <!-- Failed suite [Suite] -->
